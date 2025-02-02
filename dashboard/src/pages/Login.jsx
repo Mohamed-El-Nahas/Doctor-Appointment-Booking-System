@@ -8,9 +8,9 @@ const Login = () => {
 
   const [state, setState] = useState('Admin')
 
-  const [email, setEmail] = useState('')
+  const [email, setEmail] = useState('admin@appointmentt.com')
 
-  const [password, setPassword] = useState('')
+  const [password, setPassword] = useState('qwerty1234')
 
   const { setAToken, backendUrl } = useContext(AdminContext)
 
